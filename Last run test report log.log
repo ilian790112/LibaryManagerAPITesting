@@ -1,0 +1,426 @@
+﻿2020-03-15T12:33:39.3875974+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-03-15T12:33:39.3875974+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.48 in Framework clr40 in x86 mode execution started
+2020-03-15T12:33:39.3875974+02:00;VSTestExecutionThread;Info;TestAdapter Location: D:\Programming C#\LibraryManagerAPITesting\packages\SpecRun.Runner.3.1.48\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-03-15T12:33:39.4515882+02:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\Programming C#\LibraryManagerAPITesting\LibraryManagerAPITesting\bin\Debug\LibraryManagerAPITesting.dll
+2020-03-15T12:33:39.4525880+02:00;VSTestExecutionThread;Info;Output folder configured to "D:\Programming C#\LibraryManagerAPITesting\TestResults" (default)
+2020-03-15T12:33:39.4525880+02:00;VSTestExecutionThread;Info;Profile: 
+2020-03-15T12:33:39.5365825+02:00;VSTestExecutionThread;Info;Log file path: D:\Programming C#\LibraryManagerAPITesting\TestResults\Unnamed project__2020-03-15T123339.log
+2020-03-15T12:33:39.5835780+02:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2020-03-15T12:33:39.6055777+02:00;Thread#17;Info;Checking license
+2020-03-15T12:33:39.6695717+02:00;Thread#17;Info;Evaluation mode: test execution starts in 10 seconds... (this delay is removed in the registered version)
+2020-03-15T12:33:49.6699630+02:00;Thread#17;Info;Evaluation delay finished.
+2020-03-15T12:33:49.6799884+02:00;Thread#17;Info;License check completed
+2020-03-15T12:33:49.6799884+02:00;Thread#17;Info;starting test run
+2020-03-15T12:33:49.7349586+02:00;Thread#17;Info;Discovering target: Default
+2020-03-15T12:33:49.7349586+02:00;Thread#17;Info;Discovering tests from assembly: D:\Programming C#\LibraryManagerAPITesting\LibraryManagerAPITesting\bin\Debug\LibraryManagerAPITesting.dll
+2020-03-15T12:33:50.1139347+02:00;Thread#17;Info;Discovered tests from assembly: D:\Programming C#\LibraryManagerAPITesting\LibraryManagerAPITesting\bin\Debug\LibraryManagerAPITesting.dll
+2020-03-15T12:33:50.1159353+02:00:Test Suite Dump
+2020-03-15T12:33:50.1179345+02:00:#0: Unnamed project/ - 
+2020-03-15T12:33:50.1179345+02:00:#1: Default - 
+2020-03-15T12:33:50.1179345+02:00:#2: LibraryManagerAPITesting - 
+2020-03-15T12:33:50.1179345+02:00:#3: Add new book - 
+2020-03-15T12:33:50.1179345+02:00:#9: Delete book - 
+2020-03-15T12:33:50.1179345+02:00:#12: Get existing book - 
+2020-03-15T12:33:50.1179345+02:00:#16: Update book - 
+2020-03-15T12:33:50.1309356+02:00:#4: Verify new book is added successfully - TestAssembly:LibraryManagerAPITesting/Feature:Add+new+book/Scenario:Verify+new+book+is+added+successfully
+2020-03-15T12:33:50.1309356+02:00:#5: Add a new book which already exists - TestAssembly:LibraryManagerAPITesting/Feature:Add+new+book/Scenario:Add+a+new+book+which+already+exists
+2020-03-15T12:33:50.1309356+02:00:#6: Add a new book with invalid data,  - TestAssembly:LibraryManagerAPITesting/Feature:Add+new+book/Scenario:Add+a+new+book+with+invalid+data%2c+
+2020-03-15T12:33:50.1309356+02:00:#7: Add a new book with invalid data, 7 - TestAssembly:LibraryManagerAPITesting/Feature:Add+new+book/Scenario:Add+a+new+book+with+invalid+data%2c+7
+2020-03-15T12:33:50.1309356+02:00:#8: Add a new book with invalid data, 8 - TestAssembly:LibraryManagerAPITesting/Feature:Add+new+book/Scenario:Add+a+new+book+with+invalid+data%2c+8
+2020-03-15T12:33:50.1309356+02:00:#10: Delete existing book - TestAssembly:LibraryManagerAPITesting/Feature:Delete+book/Scenario:Delete+existing+book
+2020-03-15T12:33:50.1319341+02:00:#11: Delete a non-existing book - TestAssembly:LibraryManagerAPITesting/Feature:Delete+book/Scenario:Delete+a+non-existing+book
+2020-03-15T12:33:50.1319341+02:00:#13: Verify author, title and description of book with id 1 - TestAssembly:LibraryManagerAPITesting/Feature:Get+existing+book/Scenario:Verify+author%2c+title+and+description+of+book+with+id+1
+2020-03-15T12:33:50.1319341+02:00:#14: Get all existing books - TestAssembly:LibraryManagerAPITesting/Feature:Get+existing+book/Scenario:Get+all+existing+books
+2020-03-15T12:33:50.1319341+02:00:#15: Get а book with invalid id - TestAssembly:LibraryManagerAPITesting/Feature:Get+existing+book/Scenario:Get+%d0%b0+book+with+invalid+id
+2020-03-15T12:33:50.1319341+02:00:#17: Update book with valid id - TestAssembly:LibraryManagerAPITesting/Feature:Update+book/Scenario:Update+book+with+valid+id
+2020-03-15T12:33:50.1319341+02:00:#18: Update book with invalid Id - TestAssembly:LibraryManagerAPITesting/Feature:Update+book/Scenario:Update+book+with+invalid+Id
+2020-03-15T12:33:50.1319341+02:00:End: Test Suite Dump
+2020-03-15T12:33:50.1929314+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:50.1969303+02:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-03-15T12:33:50.1969303+02:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-03-15T12:33:50.2059310+02:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:50.2059310+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:50.2059310+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:50.2059310+02:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-03-15T12:33:50.2089299+02:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-03-15T12:33:50.2109289+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-03-15T12:33:50.2169295+02:00:Thread #0: creating new test thread executor for LibraryManagerAPITesting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-03-15T12:33:50.2489284+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-03-15T12:33:50.2559277+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-03-15T12:33:50.2589292+02:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-03-15T12:33:50.9498843+02:00:Thread#0:T:-> Loading plugin D:\Programming C#\LibraryManagerAPITesting\LibraryManagerAPITesting\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-03-15T12:33:50.9868837+02:00:Thread#0:T:-> Using default config
+2020-03-15T12:33:53.1967474+02:00:Thread#0: Test #4/0 is started on thread #0
+2020-03-15T12:33:53.2657434+02:00:Thread#0:B:When I perform operation to add a new book with details
+2020-03-15T12:33:53.2667452+02:00:Thread#0:B:  --- table step argument ---
+2020-03-15T12:33:53.2667452+02:00:Thread#0:B:  | id | author      | title      | description      |
+2020-03-15T12:33:53.2667452+02:00:Thread#0:B:  | 5  | TestAuthor5 | TestTitle5 | TestDescription5 |
+2020-03-15T12:33:54.1756869+02:00:Thread#0:T:done: AddNewBookSteps.WhenIPerformOperationToAddANewBookWithDetails(<table>) (0.5s)
+2020-03-15T12:33:54.1766878+02:00:Thread#0:B:Then the book should be added with details
+2020-03-15T12:33:54.1776874+02:00:Thread#0:B:  --- table step argument ---
+2020-03-15T12:33:54.1776874+02:00:Thread#0:B:  | id | author      | title      | description      |
+2020-03-15T12:33:54.1776874+02:00:Thread#0:B:  | 5  | TestAuthor5 | TestTitle5 | TestDescription5 |
+2020-03-15T12:33:54.3046791+02:00:Thread#0:T:done: AddNewBookSteps.ThenTheBookShouldBeAddedWithDetails(<table>) (0.1s)
+2020-03-15T12:33:54.4296734+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:54.4296734+02:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2020-03-15T12:33:54.4296734+02:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2020-03-15T12:33:54.4296734+02:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:54.4296734+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:54.4296734+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:54.4296734+02:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2020-03-15T12:33:54.4296734+02:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2020-03-15T12:33:54.4296734+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-03-15T12:33:54.5146681+02:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 1.3169207 seconds
+2020-03-15T12:33:54.5256680+02:00:Thread#0: Test #5/0 is started on thread #0
+2020-03-15T12:33:54.5576674+02:00:Thread#0:B:Given a book is already added
+2020-03-15T12:33:54.6266628+02:00:Thread#0:T:done: AddNewBookSteps.GivenABookIsAlreadyAdded() (0.1s)
+2020-03-15T12:33:54.6356622+02:00:Thread#0:B:When I make a post request to add a new book with the same id
+2020-03-15T12:33:54.6616586+02:00:Thread#0:T:done: AddNewBookSteps.WhenIMakeAPostRequestToAddANewBookWithTheSameId() (0.0s)
+2020-03-15T12:33:54.6696586+02:00:Thread#0:B:Then the response status code is BadRequest
+2020-03-15T12:33:54.6966560+02:00:Thread#0:T:done: AddNewBookSteps.ThenTheResponseStatusCodeIsBadRequest() (0.0s)
+2020-03-15T12:33:54.7056558+02:00:Thread#0:B:And the book is not added
+2020-03-15T12:33:54.7206549+02:00:Thread#0:T:done: AddNewBookSteps.ThenTheBookIsNotAdded() (0.0s)
+2020-03-15T12:33:54.7356547+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:54.7366538+02:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2020-03-15T12:33:54.7366538+02:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2020-03-15T12:33:54.7366538+02:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:54.7366538+02:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:54.7366538+02:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:54.7366538+02:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2020-03-15T12:33:54.7366538+02:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2020-03-15T12:33:54.7366538+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-03-15T12:33:54.7436523+02:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0.2179843 seconds
+2020-03-15T12:33:54.7486530+02:00:Thread#0: Test #6/0 is started on thread #0
+2020-03-15T12:33:54.7736538+02:00:Thread#0:B:When I make a post request to add a new book by with details Id '', Author 'TestAuthor', Title 'TestTitle' and Description 'TestDescription'
+2020-03-15T12:33:54.8296476+02:00:Thread#0:T:done: AddNewBookSteps.WhenIMakeAPostRequestToAddANewBookByWithDetailsIdAuthorTitleAndDescription("", "TestAuthor", "TestTitle", "TestDescription") (0.0s)
+2020-03-15T12:33:54.8366483+02:00:Thread#0:B:Then the response status code is BadRequest
+2020-03-15T12:33:54.8426467+02:00:Thread#0:T:done: AddNewBookSteps.ThenTheResponseStatusCodeIsBadRequest() (0.0s)
+2020-03-15T12:33:54.8546470+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:54.8546470+02:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2020-03-15T12:33:54.8546470+02:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2020-03-15T12:33:54.8546470+02:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:54.8546470+02:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:54.8546470+02:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:54.8546470+02:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2020-03-15T12:33:54.8546470+02:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2020-03-15T12:33:54.8546470+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-03-15T12:33:54.8606458+02:00:Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0.1119928 seconds
+2020-03-15T12:33:54.8716457+02:00:Thread#0: Test #7/0 is started on thread #0
+2020-03-15T12:33:54.8786451+02:00:Thread#0:B:When I make a post request to add a new book by with details Id '7', Author '', Title 'TestTitle' and Description 'TestDescription'
+2020-03-15T12:33:54.8876442+02:00:Thread#0:T:done: AddNewBookSteps.WhenIMakeAPostRequestToAddANewBookByWithDetailsIdAuthorTitleAndDescription("7", "", "TestTitle", "TestDescription") (0.0s)
+2020-03-15T12:33:54.8926441+02:00:Thread#0:B:Then the response status code is BadRequest
+2020-03-15T12:33:54.8996451+02:00:Thread#0:T:done: AddNewBookSteps.ThenTheResponseStatusCodeIsBadRequest() (0.0s)
+2020-03-15T12:33:54.9096427+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:54.9096427+02:00:Thread#:Scheduler: testitem #8 from normal test queue 
+2020-03-15T12:33:54.9096427+02:00:Thread#0:Scheduler: considering testitem #8 for thread 0
+2020-03-15T12:33:54.9096427+02:00:Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:54.9096427+02:00:Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:54.9096427+02:00:Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:54.9096427+02:00:Thread#0:Scheduler: using testitem #8 for thread 0
+2020-03-15T12:33:54.9096427+02:00:Thread#0:Scheduler: Test #8 is scheduled for thread
+2020-03-15T12:33:54.9096427+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-03-15T12:33:54.9156431+02:00:Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0.0439974 seconds
+2020-03-15T12:33:54.9226421+02:00:Thread#0: Test #8/0 is started on thread #0
+2020-03-15T12:33:54.9296419+02:00:Thread#0:B:When I make a post request to add a new book by with details Id '8', Author 'TestAuthor', Title '' and Description 'TestDescription'
+2020-03-15T12:33:54.9376412+02:00:Thread#0:T:done: AddNewBookSteps.WhenIMakeAPostRequestToAddANewBookByWithDetailsIdAuthorTitleAndDescription("8", "TestAuthor", "", "TestDescription") (0.0s)
+2020-03-15T12:33:54.9426407+02:00:Thread#0:B:Then the response status code is BadRequest
+2020-03-15T12:33:54.9476406+02:00:Thread#0:T:done: AddNewBookSteps.ThenTheResponseStatusCodeIsBadRequest() (0.0s)
+2020-03-15T12:33:54.9606404+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:54.9606404+02:00:Thread#:Scheduler: testitem #10 from normal test queue 
+2020-03-15T12:33:54.9606404+02:00:Thread#0:Scheduler: considering testitem #10 for thread 0
+2020-03-15T12:33:54.9606404+02:00:Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:54.9606404+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:54.9606404+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:54.9606404+02:00:Thread#0:Scheduler: using testitem #10 for thread 0
+2020-03-15T12:33:54.9606404+02:00:Thread#0:Scheduler: Test #10 is scheduled for thread
+2020-03-15T12:33:54.9606404+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-03-15T12:33:54.9686406+02:00:Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 0.0459985 seconds
+2020-03-15T12:33:54.9856394+02:00:Thread#0: Test #10/0 is started on thread #0
+2020-03-15T12:33:54.9926374+02:00:Thread#0:B:Given a book is already added
+2020-03-15T12:33:54.9996362+02:00:Thread#0:T:done: AddNewBookSteps.GivenABookIsAlreadyAdded() (0.0s)
+2020-03-15T12:33:55.0036371+02:00:Thread#0:B:When I deleted the book with the same id 3
+2020-03-15T12:33:55.2406232+02:00:Thread#0:T:done: DeleteBookSteps.WhenIDeletedTheBookWithTheSameId(3) (0.2s)
+2020-03-15T12:33:55.2456228+02:00:Thread#0:B:Then the response status code is "NoContent"
+2020-03-15T12:33:55.2516214+02:00:Thread#0:T:done: GetExistingBookSteps.ThenTheResponseStatusCodeIs("NoContent") (0.0s)
+2020-03-15T12:33:55.2866189+02:00:Thread#0:B:And the book with id 3 shouldn't exist
+2020-03-15T12:33:55.2936198+02:00:Thread#0:T:done: DeleteBookSteps.ThenTheBookWithIdShouldnTExist(3) (0.0s)
+2020-03-15T12:33:55.3026196+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:55.3026196+02:00:Thread#:Scheduler: testitem #11 from normal test queue 
+2020-03-15T12:33:55.3026196+02:00:Thread#0:Scheduler: considering testitem #11 for thread 0
+2020-03-15T12:33:55.3026196+02:00:Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:55.3026196+02:00:Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:55.3026196+02:00:Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:55.3026196+02:00:Thread#0:Scheduler: using testitem #11 for thread 0
+2020-03-15T12:33:55.3026196+02:00:Thread#0:Scheduler: Test #11 is scheduled for thread
+2020-03-15T12:33:55.3026196+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-03-15T12:33:55.3076193+02:00:Thread#0: Test #10/0 is finished on thread #0 as Succeeded within 0.3219799 seconds
+2020-03-15T12:33:55.3126186+02:00:Thread#0: Test #11/0 is started on thread #0
+2020-03-15T12:33:55.3176444+02:00:Thread#0:B:When I make a delete request to delete again the book with id 3
+2020-03-15T12:33:55.3256177+02:00:Thread#0:T:done: DeleteBookSteps.WhenIMakeADeleteRequestToDeleteAgainTheBookWithId(3) (0.0s)
+2020-03-15T12:33:55.3306176+02:00:Thread#0:B:Then the response status code is NotFound
+2020-03-15T12:33:55.3376403+02:00:Thread#0:T:done: DeleteBookSteps.ThenTheResponseStatusCodeIsNotFound() (0.0s)
+2020-03-15T12:33:55.3456407+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:55.3456407+02:00:Thread#:Scheduler: testitem #13 from normal test queue 
+2020-03-15T12:33:55.3456407+02:00:Thread#0:Scheduler: considering testitem #13 for thread 0
+2020-03-15T12:33:55.3466429+02:00:Thread#0:TestItem#13:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:55.3466429+02:00:Thread#0:TestItem#13:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:55.3466429+02:00:Thread#0:TestItem#13:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:55.3466429+02:00:Thread#0:Scheduler: using testitem #13 for thread 0
+2020-03-15T12:33:55.3466429+02:00:Thread#0:Scheduler: Test #13 is scheduled for thread
+2020-03-15T12:33:55.3466429+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-03-15T12:33:55.3506158+02:00:Thread#0: Test #11/0 is finished on thread #0 as Succeeded within 0.0379972 seconds
+2020-03-15T12:33:55.3556183+02:00:Thread#0: Test #13/0 is started on thread #0
+2020-03-15T12:33:55.3636183+02:00:Thread#0:B:Given I perform GET operation for "api/books/{bookid}"
+2020-03-15T12:33:55.3686180+02:00:Thread#0:T:done: GetExistingBookSteps.GivenIPerformGETOperationFor("api/books/{bookid}") (0.0s)
+2020-03-15T12:33:55.3726174+02:00:Thread#0:B:When I perform operation for book with id 1
+2020-03-15T12:33:55.6665989+02:00:Thread#0:T:done: GetExistingBookSteps.WhenIPerformOperationForBookWithId(1) (0.3s)
+2020-03-15T12:33:55.6735980+02:00:Thread#0:B:Then I should see the "title" as "TestTitle1"
+2020-03-15T12:33:55.6935962+02:00:Thread#0:T:done: GetExistingBookSteps.ThenIShouldSeeTheAs("title", "TestTitle1") (0.0s)
+2020-03-15T12:33:55.7015981+02:00:Thread#0:B:And I should see the "description" as "TestDescription1"
+2020-03-15T12:33:55.7105954+02:00:Thread#0:T:done: GetExistingBookSteps.ThenIShouldSeeTheAs("description", "TestDescription1") (0.0s)
+2020-03-15T12:33:55.7165957+02:00:Thread#0:B:And I should see the "author" as "TestAuthor1"
+2020-03-15T12:33:56.5635422+02:00:Thread#0:T:error:   The author is not matching
+2020-03-15T12:33:56.5675440+02:00:Thread#0:T:  Expected: "TestAuthor1"
+2020-03-15T12:33:56.5725425+02:00:Thread#0:T:  But was:  null
+2020-03-15T12:33:56.5815404+02:00:Thread#0:TestItem#13:Scheduler: reschedule tests for testitem #13
+2020-03-15T12:33:56.5875693+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:56.5875693+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #13
+2020-03-15T12:33:56.5875693+02:00:Thread#0:Scheduler: considering testitem #13 for thread 0
+2020-03-15T12:33:56.5875693+02:00:Thread#0:TestItem#13:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:56.5875693+02:00:Thread#0:TestItem#13:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:56.5875693+02:00:Thread#0:TestItem#13:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:56.5875693+02:00:Thread#0:Scheduler: using testitem #13 for thread 0
+2020-03-15T12:33:56.5875693+02:00:Thread#0:Scheduler: Test #13 is scheduled for thread
+2020-03-15T12:33:56.5875693+02:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-03-15T12:33:56.5945570+02:00:Thread#0: Test #13/0 is finished on thread #0 as Failed within 1.2389387 seconds
+2020-03-15T12:33:56.6035389+02:00:Thread#0: Test #13/1 is started on thread #0
+2020-03-15T12:33:56.6085418+02:00:Thread#0:B:Given I perform GET operation for "api/books/{bookid}"
+2020-03-15T12:33:56.6145403+02:00:Thread#0:T:done: GetExistingBookSteps.GivenIPerformGETOperationFor("api/books/{bookid}") (0.0s)
+2020-03-15T12:33:56.6195406+02:00:Thread#0:B:When I perform operation for book with id 1
+2020-03-15T12:33:56.6255391+02:00:Thread#0:T:done: GetExistingBookSteps.WhenIPerformOperationForBookWithId(1) (0.0s)
+2020-03-15T12:33:56.6305411+02:00:Thread#0:B:Then I should see the "title" as "TestTitle1"
+2020-03-15T12:33:56.6365409+02:00:Thread#0:T:done: GetExistingBookSteps.ThenIShouldSeeTheAs("title", "TestTitle1") (0.0s)
+2020-03-15T12:33:56.6415383+02:00:Thread#0:B:And I should see the "description" as "TestDescription1"
+2020-03-15T12:33:56.6475375+02:00:Thread#0:T:done: GetExistingBookSteps.ThenIShouldSeeTheAs("description", "TestDescription1") (0.0s)
+2020-03-15T12:33:56.6515386+02:00:Thread#0:B:And I should see the "author" as "TestAuthor1"
+2020-03-15T12:33:56.6595383+02:00:Thread#0:T:error: Multiple failures or warnings in test:
+2020-03-15T12:33:56.6635372+02:00:Thread#0:T:  1)   The author is not matching
+2020-03-15T12:33:56.6675379+02:00:Thread#0:T:  Expected: "TestAuthor1"
+2020-03-15T12:33:56.6725358+02:00:Thread#0:T:  But was:  null
+2020-03-15T12:33:56.6755356+02:00:Thread#0:T:  2)   The author is not matching
+2020-03-15T12:33:56.6805360+02:00:Thread#0:T:  Expected: "TestAuthor1"
+2020-03-15T12:33:56.6835352+02:00:Thread#0:T:  But was:  null
+2020-03-15T12:33:56.6925702+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:56.6925702+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #13
+2020-03-15T12:33:56.6925702+02:00:Thread#0:Scheduler: considering testitem #13 for thread 0
+2020-03-15T12:33:56.6925702+02:00:Thread#0:TestItem#13:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:56.6925702+02:00:Thread#0:TestItem#13:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:56.6925702+02:00:Thread#0:TestItem#13:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:56.6925702+02:00:Thread#0:Scheduler: using testitem #13 for thread 0
+2020-03-15T12:33:56.6925702+02:00:Thread#0:Scheduler: Test #13 is scheduled for thread
+2020-03-15T12:33:56.6925702+02:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-03-15T12:33:56.6985603+02:00:Thread#0: Test #13/1 is finished on thread #0 as Failed within 0.0950214 seconds
+2020-03-15T12:33:56.7035339+02:00:Thread#0: Test #13/2 is started on thread #0
+2020-03-15T12:33:56.7085331+02:00:Thread#0:B:Given I perform GET operation for "api/books/{bookid}"
+2020-03-15T12:33:56.7125332+02:00:Thread#0:T:done: GetExistingBookSteps.GivenIPerformGETOperationFor("api/books/{bookid}") (0.0s)
+2020-03-15T12:33:56.7175330+02:00:Thread#0:B:When I perform operation for book with id 1
+2020-03-15T12:33:56.7235325+02:00:Thread#0:T:done: GetExistingBookSteps.WhenIPerformOperationForBookWithId(1) (0.0s)
+2020-03-15T12:33:56.7275319+02:00:Thread#0:B:Then I should see the "title" as "TestTitle1"
+2020-03-15T12:33:56.7335346+02:00:Thread#0:T:done: GetExistingBookSteps.ThenIShouldSeeTheAs("title", "TestTitle1") (0.0s)
+2020-03-15T12:33:56.7405311+02:00:Thread#0:B:And I should see the "description" as "TestDescription1"
+2020-03-15T12:33:56.7455333+02:00:Thread#0:T:done: GetExistingBookSteps.ThenIShouldSeeTheAs("description", "TestDescription1") (0.0s)
+2020-03-15T12:33:56.7505330+02:00:Thread#0:B:And I should see the "author" as "TestAuthor1"
+2020-03-15T12:33:56.7595322+02:00:Thread#0:T:error: Multiple failures or warnings in test:
+2020-03-15T12:33:56.7655319+02:00:Thread#0:T:  1)   The author is not matching
+2020-03-15T12:33:56.7705312+02:00:Thread#0:T:  Expected: "TestAuthor1"
+2020-03-15T12:33:56.7765543+02:00:Thread#0:T:  But was:  null
+2020-03-15T12:33:56.7825525+02:00:Thread#0:T:  2)   The author is not matching
+2020-03-15T12:33:56.7895301+02:00:Thread#0:T:  Expected: "TestAuthor1"
+2020-03-15T12:33:56.7955284+02:00:Thread#0:T:  But was:  null
+2020-03-15T12:33:56.8015302+02:00:Thread#0:T:  3)   The author is not matching
+2020-03-15T12:33:56.8255278+02:00:Thread#0:T:  Expected: "TestAuthor1"
+2020-03-15T12:33:56.8365262+02:00:Thread#0:T:  But was:  null
+2020-03-15T12:33:56.8565254+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:56.8575257+02:00:Thread#:Scheduler: testitem #14 from normal test queue 
+2020-03-15T12:33:56.8575257+02:00:Thread#0:Scheduler: considering testitem #14 for thread 0
+2020-03-15T12:33:56.8585258+02:00:Thread#0:TestItem#14:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:56.8585258+02:00:Thread#0:TestItem#14:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:56.8585258+02:00:Thread#0:TestItem#14:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:56.8585258+02:00:Thread#0:Scheduler: using testitem #14 for thread 0
+2020-03-15T12:33:56.8585258+02:00:Thread#0:Scheduler: Test #14 is scheduled for thread
+2020-03-15T12:33:56.8585258+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-03-15T12:33:56.8695252+02:00:Thread#0: Test #13/2 is finished on thread #0 as Failed within 0.1659913 seconds
+2020-03-15T12:33:56.8785242+02:00:Thread#0: Test #14/0 is started on thread #0
+2020-03-15T12:33:56.9045222+02:00:Thread#0:B:Given I perform GET operation for "api/books/"
+2020-03-15T12:33:56.9385250+02:00:Thread#0:T:done: GetExistingBookSteps.GivenIPerformGETOperationFor("api/books/") (0.0s)
+2020-03-15T12:33:56.9735188+02:00:Thread#0:B:When I request all the books
+2020-03-15T12:33:57.0655132+02:00:Thread#0:T:done: GetExistingBookSteps.WhenIRequestAllTheBooks() (0.1s)
+2020-03-15T12:33:57.0715117+02:00:Thread#0:B:Then the data of all books should be returned
+2020-03-15T12:33:57.0795111+02:00:Thread#0:T:done: GetExistingBookSteps.ThenTheDataOfAllBooksShouldBeReturned() (0.0s)
+2020-03-15T12:33:57.0905099+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:57.0905099+02:00:Thread#:Scheduler: testitem #15 from normal test queue 
+2020-03-15T12:33:57.0905099+02:00:Thread#0:Scheduler: considering testitem #15 for thread 0
+2020-03-15T12:33:57.0905099+02:00:Thread#0:TestItem#15:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:57.0905099+02:00:Thread#0:TestItem#15:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:57.0905099+02:00:Thread#0:TestItem#15:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:57.0905099+02:00:Thread#0:Scheduler: using testitem #15 for thread 0
+2020-03-15T12:33:57.0905099+02:00:Thread#0:Scheduler: Test #15 is scheduled for thread
+2020-03-15T12:33:57.0905099+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-03-15T12:33:57.0965097+02:00:Thread#0: Test #14/0 is finished on thread #0 as Succeeded within 0.2179855 seconds
+2020-03-15T12:33:57.1035093+02:00:Thread#0: Test #15/0 is started on thread #0
+2020-03-15T12:33:57.1105096+02:00:Thread#0:B:Given I perform GET operation for "api/books/{bookid}"
+2020-03-15T12:33:57.1195101+02:00:Thread#0:T:done: GetExistingBookSteps.GivenIPerformGETOperationFor("api/books/{bookid}") (0.0s)
+2020-03-15T12:33:57.1245078+02:00:Thread#0:B:When I perform operation for book with id 8
+2020-03-15T12:33:57.1535056+02:00:Thread#0:T:done: GetExistingBookSteps.WhenIPerformOperationForBookWithId(8) (0.0s)
+2020-03-15T12:33:57.1595058+02:00:Thread#0:B:Then the response status code is NotFound
+2020-03-15T12:33:57.1665061+02:00:Thread#0:T:done: DeleteBookSteps.ThenTheResponseStatusCodeIsNotFound() (0.0s)
+2020-03-15T12:33:57.1745036+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:57.1745036+02:00:Thread#:Scheduler: testitem #17 from normal test queue 
+2020-03-15T12:33:57.1745036+02:00:Thread#0:Scheduler: considering testitem #17 for thread 0
+2020-03-15T12:33:57.1745036+02:00:Thread#0:TestItem#17:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:57.1745036+02:00:Thread#0:TestItem#17:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:57.1745036+02:00:Thread#0:TestItem#17:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:57.1745036+02:00:Thread#0:Scheduler: using testitem #17 for thread 0
+2020-03-15T12:33:57.1745036+02:00:Thread#0:Scheduler: Test #17 is scheduled for thread
+2020-03-15T12:33:57.1745036+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-03-15T12:33:57.1815125+02:00:Thread#0: Test #15/0 is finished on thread #0 as Succeeded within 0.0769953 seconds
+2020-03-15T12:33:57.1875045+02:00:Thread#0: Test #17/0 is started on thread #0
+2020-03-15T12:33:57.1935039+02:00:Thread#0:B:Given a book is already added
+2020-03-15T12:33:57.2015032+02:00:Thread#0:T:done: AddNewBookSteps.GivenABookIsAlreadyAdded() (0.0s)
+2020-03-15T12:33:57.2055021+02:00:Thread#0:B:When I update the book with id 3 with values "TestTitle", "TestAuthor" and "TestDescription"
+2020-03-15T12:33:57.2125024+02:00:Thread#0:T:done: UpdateBookSteps.WhenIUpdateTheBookWithIdWithValuesAnd("3", "TestTitle", "TestAuthor", "TestDescription") (0.0s)
+2020-03-15T12:33:57.2175034+02:00:Thread#0:B:Then the book with id 3 should contain the correct "TestTitle", "TestAuthor" and "TestDescription"
+2020-03-15T12:33:57.2365032+02:00:Thread#0:T:error: Multiple failures or warnings in test:
+2020-03-15T12:33:57.2415021+02:00:Thread#0:T:  1)   The author is not matching
+2020-03-15T12:33:57.2485017+02:00:Thread#0:T:  Expected: "TestAuthor1"
+2020-03-15T12:33:57.2545004+02:00:Thread#0:T:  But was:  null
+2020-03-15T12:33:57.2604994+02:00:Thread#0:T:  2)   The author is not matching
+2020-03-15T12:33:57.2674992+02:00:Thread#0:T:  Expected: "TestAuthor1"
+2020-03-15T12:33:57.2734984+02:00:Thread#0:T:  But was:  null
+2020-03-15T12:33:57.2814986+02:00:Thread#0:T:  3)   The author is not matching
+2020-03-15T12:33:57.2874972+02:00:Thread#0:T:  Expected: "TestAuthor1"
+2020-03-15T12:33:57.2934969+02:00:Thread#0:T:  But was:  null
+2020-03-15T12:33:57.3004975+02:00:Thread#0:T:  4)   The description is not updated
+2020-03-15T12:33:57.3054962+02:00:Thread#0:T:  Expected string length 15 but was 16. Strings differ at index 15.
+2020-03-15T12:33:57.3104967+02:00:Thread#0:T:  Expected: "TestDescription"
+2020-03-15T12:33:57.3164969+02:00:Thread#0:T:  But was:  "TestDescription3"
+2020-03-15T12:33:57.3214962+02:00:Thread#0:T:  --------------------------^
+2020-03-15T12:33:57.3274947+02:00:Thread#0:TestItem#17:Scheduler: reschedule tests for testitem #17
+2020-03-15T12:33:57.3344947+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:57.3344947+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #17
+2020-03-15T12:33:57.3344947+02:00:Thread#0:Scheduler: considering testitem #17 for thread 0
+2020-03-15T12:33:57.3344947+02:00:Thread#0:TestItem#17:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:57.3344947+02:00:Thread#0:TestItem#17:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:57.3344947+02:00:Thread#0:TestItem#17:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:57.3344947+02:00:Thread#0:Scheduler: using testitem #17 for thread 0
+2020-03-15T12:33:57.3344947+02:00:Thread#0:Scheduler: Test #17 is scheduled for thread
+2020-03-15T12:33:57.3344947+02:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-03-15T12:33:57.3414939+02:00:Thread#0: Test #17/0 is finished on thread #0 as Failed within 0.1539894 seconds
+2020-03-15T12:33:57.3484957+02:00:Thread#0: Test #17/1 is started on thread #0
+2020-03-15T12:33:57.3554944+02:00:Thread#0:B:Given a book is already added
+2020-03-15T12:33:57.3624933+02:00:Thread#0:T:done: AddNewBookSteps.GivenABookIsAlreadyAdded() (0.0s)
+2020-03-15T12:33:57.3694928+02:00:Thread#0:B:When I update the book with id 3 with values "TestTitle", "TestAuthor" and "TestDescription"
+2020-03-15T12:33:57.3764929+02:00:Thread#0:T:done: UpdateBookSteps.WhenIUpdateTheBookWithIdWithValuesAnd("3", "TestTitle", "TestAuthor", "TestDescription") (0.0s)
+2020-03-15T12:33:57.3824941+02:00:Thread#0:B:Then the book with id 3 should contain the correct "TestTitle", "TestAuthor" and "TestDescription"
+2020-03-15T12:33:57.3934925+02:00:Thread#0:T:error: Multiple failures or warnings in test:
+2020-03-15T12:33:57.4014912+02:00:Thread#0:T:  1)   The author is not matching
+2020-03-15T12:33:57.4074900+02:00:Thread#0:T:  Expected: "TestAuthor1"
+2020-03-15T12:33:57.4114896+02:00:Thread#0:T:  But was:  null
+2020-03-15T12:33:57.4164908+02:00:Thread#0:T:  2)   The author is not matching
+2020-03-15T12:33:57.4204888+02:00:Thread#0:T:  Expected: "TestAuthor1"
+2020-03-15T12:33:57.4244889+02:00:Thread#0:T:  But was:  null
+2020-03-15T12:33:57.4284881+02:00:Thread#0:T:  3)   The author is not matching
+2020-03-15T12:33:57.4334895+02:00:Thread#0:T:  Expected: "TestAuthor1"
+2020-03-15T12:33:57.4394876+02:00:Thread#0:T:  But was:  null
+2020-03-15T12:33:57.4434872+02:00:Thread#0:T:  4)   The description is not updated
+2020-03-15T12:33:57.4474891+02:00:Thread#0:T:  Expected string length 15 but was 16. Strings differ at index 15.
+2020-03-15T12:33:57.4524880+02:00:Thread#0:T:  Expected: "TestDescription"
+2020-03-15T12:33:57.4564873+02:00:Thread#0:T:  But was:  "TestDescription3"
+2020-03-15T12:33:57.4604871+02:00:Thread#0:T:  --------------------------^
+2020-03-15T12:33:57.4654885+02:00:Thread#0:T:  5)   The description is not updated
+2020-03-15T12:33:57.4704890+02:00:Thread#0:T:  Expected string length 15 but was 16. Strings differ at index 15.
+2020-03-15T12:33:57.4744890+02:00:Thread#0:T:  Expected: "TestDescription"
+2020-03-15T12:33:57.4784884+02:00:Thread#0:T:  But was:  "TestDescription3"
+2020-03-15T12:33:57.4854860+02:00:Thread#0:T:  --------------------------^
+2020-03-15T12:33:57.4954842+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:57.4954842+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #17
+2020-03-15T12:33:57.4964878+02:00:Thread#0:Scheduler: considering testitem #17 for thread 0
+2020-03-15T12:33:57.4974865+02:00:Thread#0:TestItem#17:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:57.4974865+02:00:Thread#0:TestItem#17:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:57.4974865+02:00:Thread#0:TestItem#17:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:57.4974865+02:00:Thread#0:Scheduler: using testitem #17 for thread 0
+2020-03-15T12:33:57.4974865+02:00:Thread#0:Scheduler: Test #17 is scheduled for thread
+2020-03-15T12:33:57.4974865+02:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-03-15T12:33:57.5044844+02:00:Thread#0: Test #17/1 is finished on thread #0 as Failed within 0.1549892 seconds
+2020-03-15T12:33:57.5104856+02:00:Thread#0: Test #17/2 is started on thread #0
+2020-03-15T12:33:57.5174844+02:00:Thread#0:B:Given a book is already added
+2020-03-15T12:33:57.5254830+02:00:Thread#0:T:done: AddNewBookSteps.GivenABookIsAlreadyAdded() (0.0s)
+2020-03-15T12:33:57.5314846+02:00:Thread#0:B:When I update the book with id 3 with values "TestTitle", "TestAuthor" and "TestDescription"
+2020-03-15T12:33:57.5394834+02:00:Thread#0:T:done: UpdateBookSteps.WhenIUpdateTheBookWithIdWithValuesAnd("3", "TestTitle", "TestAuthor", "TestDescription") (0.0s)
+2020-03-15T12:33:57.5464829+02:00:Thread#0:B:Then the book with id 3 should contain the correct "TestTitle", "TestAuthor" and "TestDescription"
+2020-03-15T12:33:57.5564817+02:00:Thread#0:T:error: Multiple failures or warnings in test:
+2020-03-15T12:33:57.5614809+02:00:Thread#0:T:  1)   The author is not matching
+2020-03-15T12:33:57.5684815+02:00:Thread#0:T:  Expected: "TestAuthor1"
+2020-03-15T12:33:57.5734803+02:00:Thread#0:T:  But was:  null
+2020-03-15T12:33:57.5774801+02:00:Thread#0:T:  2)   The author is not matching
+2020-03-15T12:33:57.5844798+02:00:Thread#0:T:  Expected: "TestAuthor1"
+2020-03-15T12:33:57.5904792+02:00:Thread#0:T:  But was:  null
+2020-03-15T12:33:57.5954913+02:00:Thread#0:T:  3)   The author is not matching
+2020-03-15T12:33:57.6024782+02:00:Thread#0:T:  Expected: "TestAuthor1"
+2020-03-15T12:33:57.6074780+02:00:Thread#0:T:  But was:  null
+2020-03-15T12:33:57.6124783+02:00:Thread#0:T:  4)   The description is not updated
+2020-03-15T12:33:57.6204781+02:00:Thread#0:T:  Expected string length 15 but was 16. Strings differ at index 15.
+2020-03-15T12:33:57.6254764+02:00:Thread#0:T:  Expected: "TestDescription"
+2020-03-15T12:33:57.6314781+02:00:Thread#0:T:  But was:  "TestDescription3"
+2020-03-15T12:33:57.6374766+02:00:Thread#0:T:  --------------------------^
+2020-03-15T12:33:57.6434757+02:00:Thread#0:T:  5)   The description is not updated
+2020-03-15T12:33:57.6504760+02:00:Thread#0:T:  Expected string length 15 but was 16. Strings differ at index 15.
+2020-03-15T12:33:57.6554757+02:00:Thread#0:T:  Expected: "TestDescription"
+2020-03-15T12:33:57.6594751+02:00:Thread#0:T:  But was:  "TestDescription3"
+2020-03-15T12:33:57.6654753+02:00:Thread#0:T:  --------------------------^
+2020-03-15T12:33:57.6704734+02:00:Thread#0:T:  6)   The description is not updated
+2020-03-15T12:33:57.6744733+02:00:Thread#0:T:  Expected string length 15 but was 16. Strings differ at index 15.
+2020-03-15T12:33:57.6784727+02:00:Thread#0:T:  Expected: "TestDescription"
+2020-03-15T12:33:57.6834735+02:00:Thread#0:T:  But was:  "TestDescription3"
+2020-03-15T12:33:57.6874724+02:00:Thread#0:T:  --------------------------^
+2020-03-15T12:33:57.6964734+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:57.6964734+02:00:Thread#:Scheduler: testitem #18 from normal test queue 
+2020-03-15T12:33:57.6964734+02:00:Thread#0:Scheduler: considering testitem #18 for thread 0
+2020-03-15T12:33:57.6964734+02:00:Thread#0:TestItem#18:testItemMatchesCurrentTestThread:UnSpecific
+2020-03-15T12:33:57.6964734+02:00:Thread#0:TestItem#18:runsOnOneOtherThreadSpecific:False
+2020-03-15T12:33:57.6964734+02:00:Thread#0:TestItem#18:runsOnOneOtherThreadUnspecific:False
+2020-03-15T12:33:57.6964734+02:00:Thread#0:Scheduler: using testitem #18 for thread 0
+2020-03-15T12:33:57.6964734+02:00:Thread#0:Scheduler: Test #18 is scheduled for thread
+2020-03-15T12:33:57.6964734+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-03-15T12:33:57.7034725+02:00:Thread#0: Test #17/2 is finished on thread #0 as Failed within 0.1929869 seconds
+2020-03-15T12:33:57.7084720+02:00:Thread#0: Test #18/0 is started on thread #0
+2020-03-15T12:33:57.7164722+02:00:Thread#0:B:When I update the book with id 8 with values "TestTitle8", "TestAuthor8" and "TestDescription8"
+2020-03-15T12:33:57.7244727+02:00:Thread#0:T:done: UpdateBookSteps.WhenIUpdateTheBookWithIdWithValuesAnd("8", "TestTitle8", "TestAuthor8", "TestDescription8") (0.0s)
+2020-03-15T12:33:57.7294711+02:00:Thread#0:B:Then the response status code is NotFound
+2020-03-15T12:33:57.7414702+02:00:Thread#0:T:done: DeleteBookSteps.ThenTheResponseStatusCodeIsNotFound() (0.0s)
+2020-03-15T12:33:57.7534697+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-03-15T12:33:57.7534697+02:00:Thread#:Scheduler: at the end of normal test queue
+2020-03-15T12:33:57.7534697+02:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-03-15T12:33:57.7534697+02:00:Thread#0:Scheduler: No more tests for thread
+2020-03-15T12:33:57.7864679+02:00:Thread#0: Test #18/0 is finished on thread #0 as Succeeded within 0.0779959 seconds
+2020-03-15T12:33:57.8914615+02:00:Trying to cancel thread
+2020-03-15T12:33:57.8914615+02:00:Thread cancelled
+2020-03-15T12:33:57.9114594+02:00:Thread#-1:Scheduler: get next test for thread -1
+2020-03-15T12:33:57.9114594+02:00:Thread#:Scheduler: at the end of normal test queue
+2020-03-15T12:33:57.9114594+02:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-03-15T12:33:57.9214603+02:00;Thread#17;Info;test run finished
+2020-03-15T12:33:57.9214603+02:00;Thread#17;Info;publishing test results
+2020-03-15T12:33:58.0284537+02:00;Thread#17;Info;test results published
+2020-03-15T12:33:58.0294533+02:00;Thread#17;Info;generating reports
+2020-03-15T12:33:58.5374212+02:00;Thread#17;Info;Starting external report generation process
+2020-03-15T12:34:05.3130087+02:00;Thread#17;Info;Successfully generated reports.
+2020-03-15T12:34:05.3160088+02:00;Thread#17;Info;Successfully generated reports
+2020-03-15T12:34:05.3350079+02:00:Total: 12 (test executions: 16)
+2020-03-15T12:34:05.3390086+02:00:Succeeded: 10
+2020-03-15T12:34:05.3400078+02:00:Ignored: 0
+2020-03-15T12:34:05.3410067+02:00:Pending: 0
+2020-03-15T12:34:05.3410067+02:00:Skipped: 0
+2020-03-15T12:34:05.3420076+02:00:Failed: 2
+2020-03-15T12:34:05.3750042+02:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-03-15T12:34:05.3750042+02:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\Programming C#\LibraryManagerAPITesting\TestResults\Unnamed project__2020-03-15T123339.html'
+========== End of log file ==========
